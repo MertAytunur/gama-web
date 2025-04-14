@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 export default function Custom404() {
   return (
-    <Layout title="Sayfa Bulunamadı | GAMA METALURJI">
+    <Layout title="Sayfa Bulunamadı | GAMA Bina Güçlendirme Ürünleri">
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="text-center p-8 bg-white rounded-lg shadow-md max-w-md">
           <h1 className="text-6xl font-bold text-blue-700 mb-4">404</h1>

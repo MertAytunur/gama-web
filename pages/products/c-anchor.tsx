@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 const KarbonAnchorPage = () => {
   return (
-    <Layout title="GAMA Karbon Ankraj | GAMA METALURJI" description="Yapısal güçlendirme için karbon ankraj">
+    <Layout title="GAMA Karbon Ankraj | GAMA Bina Güçlendirme Ürünleri" description="Yapısal güçlendirme için karbon ankraj">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}

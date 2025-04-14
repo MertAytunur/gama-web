@@ -5,7 +5,7 @@ import ProjectCard from '../../src/components/ProjectCard';
 
 export default function Projects() {
   return (
-    <Layout title="Projeler | GAMA METALURJI" description="GAMA METALURJI tarafından gerçekleştirilen projeler">
+    <Layout title="Projeler | GAMA Bina Güçlendirme Ürünleri" description="GAMA Bina Güçlendirme Ürünleri tarafından gerçekleştirilen projeler">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold mb-8">Projelerimiz</h1>
         

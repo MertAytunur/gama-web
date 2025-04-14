@@ -3,13 +3,13 @@ import Layout from '../../components/Layout';
 
 const UcAnkrajPage = () => {
   return (
-    <Layout title="GAMA Uç Ankraj | GAMA METALURJI" description="FRP laminat ankraj sistemi">
+    <Layout title="GAMA Uç Ankraj | GAMA Bina Güçlendirme Ürünleri" description="FRP plaka ankraj sistemi">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}
           <div className="bg-blue-600 text-white p-6">
             <h1 className="text-3xl font-bold">GAMA Uç Ankraj</h1>
-            <p className="mt-2 text-lg">FRP laminat ankraj sistemi</p>
+            <p className="mt-2 text-lg">FRP plaka ankraj sistemi</p>
           </div>
           
           {/* Ürün Detayları */}
@@ -31,7 +31,7 @@ const UcAnkrajPage = () => {
                 <h2 className="text-2xl font-semibold mb-4">Ürün Bilgileri</h2>
                 
                 <div className="prose max-w-none">
-                  <p>GAMA Uç Ankraj, FRP laminatların uç kısımlarının ankrajlanması için özel olarak geliştirilmiş bir sistemdir.</p>
+                  <p>GAMA Uç Ankraj, FRP plakaların uç kısımlarının ankrajlanması için özel olarak geliştirilmiş bir sistemdir.</p>
                   
                   <h3 className="text-xl font-semibold mt-6 mb-3">Teknik Özellikler</h3>
                   <ul className="list-disc pl-5 space-y-2">
@@ -44,7 +44,7 @@ const UcAnkrajPage = () => {
                   
                   <h3 className="text-xl font-semibold mt-6 mb-3">Uygulamalar</h3>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>FRP laminatların uç ankrajlanması</li>
+                    <li>FRP plakaların uç ankrajlanması</li>
                     <li>Kiriş güçlendirmeleri</li>
                     <li>Kolon güçlendirmeleri</li>
                     <li>Duvar güçlendirmeleri</li>
@@ -58,8 +58,8 @@ const UcAnkrajPage = () => {
               <h3 className="text-xl font-semibold mb-4">İlgili Ürünler</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">GAMA Karbon Laminat</h3>
-                  <p className="text-sm text-gray-600">Yüksek mukavemetli karbon fiber laminatlar</p>
+                  <h3 className="font-semibold mb-2">GAMA Karbon Plaka</h3>
+                  <p className="text-sm text-gray-600">Yüksek mukavemetli karbon fiber plakalar</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h3 className="font-semibold mb-2">GAMA Karbon Ankraj</h3>

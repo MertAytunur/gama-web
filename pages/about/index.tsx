@@ -4,22 +4,22 @@ import Link from 'next/link';
 
 export default function About() {
   return (
-    <Layout title="Hakkımızda | Gama Metalürji" description="Gama Metalürji hakkında bilgi">
+    <Layout title="Hakkımızda | GAMA Bina Güçlendirme Ürünler" description="GAMA Bina Güçlendirme Ürünler hakkında bilgi">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8">Hakkımızda</h1>
         
         <section className="mb-12">
           <p className="text-lg mb-4">
-            Gama Metalürji, 2009 yılında kurulmuştur. Firmamız tekstil makine parçaları ve bina güçlendirme malzemesi üretimi çalışmalarıyla tanınan, Ar-Ge çalışma faaliyetlerini Teknopark ile birlikte yürüten bir kompozit üretim firmasıdır.
+            GAMA Bina Güçlendirme Ürünler, 2009 yılında kurulmuştur. Firmamız tekstil makine parçaları ve bina güçlendirme malzemesi üretimi çalışmalarıyla tanınan, Ar-Ge çalışma faaliyetlerini Teknopark ile birlikte yürüten bir kompozit üretim firmasıdır.
           </p>
           <p className="text-lg mb-4">
-            Ülkemizde 2009 yılında karbon elyaf üretimine başlanmasıyla Gama Metalürji de kendisi proses geliştirmeye başlamıştır. Kendi bünyesinde özel olarak geliştirdiği pultrüzyon prosesiyle karbon kompozit yapıları üretmektedir.
+            Ülkemizde 2009 yılında karbon elyaf üretimine başlanmasıyla GAMA Bina Güçlendirme Ürünler de kendisi proses geliştirmeye başlamıştır. Kendi bünyesinde özel olarak geliştirdiği pultrüzyon prosesiyle karbon kompozit yapıları üretmektedir.
           </p>
           <p className="text-lg mb-4">
-            Gama Metalürji, kuruluşundan itibaren birçok çalışmaya öncü olup, günümüze kadar gelen süreçte kendini geliştirmeye devam etmiş ve halen büyüme çalışmalarını sürdürmektedir. Üretim yaptığı alanda Türkiye'de tek üretici firmadır.
+            GAMA Bina Güçlendirme Ürünler, kuruluşundan itibaren birçok çalışmaya öncü olup, günümüze kadar gelen süreçte kendini geliştirmeye devam etmiş ve halen büyüme çalışmalarını sürdürmektedir. Üretim yaptığı alanda Türkiye'de tek üretici firmadır.
           </p>
           <p className="text-lg">
-            Gama Metalurji, 15 yıldır bu alanda çalışan doktoralı Ar-Ge kadrosu ile sürekli ürün kalitesini iyileştirmektedir.
+            GAMA Bina Güçlendirme Ürünler, 15 yıldır bu alanda çalışan doktoralı Ar-Ge kadrosu ile sürekli ürün kalitesini iyileştirmektedir.
           </p>
         </section>
         

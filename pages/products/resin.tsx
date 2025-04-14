@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 const RecinePage = () => {
   return (
-    <Layout title="GAMA Reçine 220 HP | GAMA METALURJI" description="Yapısal bağlantı için epoksi yapıştırıcı">
+    <Layout title="GAMA Reçine 220 HP | GAMA Bina Güçlendirme Ürünleri" description="Yapısal bağlantı için epoksi yapıştırıcı">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}

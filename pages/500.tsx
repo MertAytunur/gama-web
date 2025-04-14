@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 export default function Custom500() {
   return (
-    <Layout title="Sunucu Hatası | GAMA METALURJI">
+    <Layout title="Sunucu Hatası | GAMA Bina Güçlendirme Ürünleri">
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="text-center p-8 bg-white rounded-lg shadow-md max-w-md">
           <h1 className="text-6xl font-bold text-blue-700 mb-4">500</h1>

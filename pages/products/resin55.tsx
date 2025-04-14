@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 const Recine55Page = () => {
   return (
-    <Layout title="GAMA Reçine 55 HP | GAMA METALURJI" description="FRP kumaşlar için epoksi yapıştırıcı">
+    <Layout title="GAMA Reçine 55 HP | GAMA Bina Güçlendirme Ürünleri" description="FRP kumaşlar için epoksi yapıştırıcı">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}
@@ -58,12 +58,12 @@ const Recine55Page = () => {
               <h3 className="text-xl font-semibold mb-4">İlgili Ürünler</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">GAMA Karbon Kumaş</h3>
-                  <p className="text-sm text-gray-600">Karbon fiber kumaşlar</p>
+                  <h3 className="font-semibold mb-2">GAMA Karbon Plaka</h3>
+                  <p className="text-sm text-gray-600">Yüksek mukavemetli karbon fiber plakalar</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">GAMA Karbon Laminat</h3>
-                  <p className="text-sm text-gray-600">Yüksek mukavemetli karbon fiber laminatlar</p>
+                  <h3 className="font-semibold mb-2">GAMA Karbon Kumaş</h3>
+                  <p className="text-sm text-gray-600">Karbon fiber kumaşlar</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h3 className="font-semibold mb-2">GAMA Reçine 220 HP</h3>

@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 const CMeshPage = () => {
   return (
-    <Layout title="GAMA C-Mesh | GAMA METALURJI" description="Karbon fiber file güçlendirme sistemleri">
+    <Layout title="GAMA C-Mesh | GAMA Bina Güçlendirme Ürünleri" description="Karbon fiber file güçlendirme sistemleri">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}

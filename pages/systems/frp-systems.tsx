@@ -6,7 +6,7 @@ import ProjectCard from '../../src/components/ProjectCard';
 export default function FrpSystems() {
   return (
     <Layout 
-      title="FRP Sistemleri | GAMA METALURJI" 
+      title="FRP Sistemleri | GAMA Bina Güçlendirme Ürünleri" 
       description="Fiber kompozitlerle yapısal güçlendirme çözümleri - FRP Sistemleri"
     >
       {/* Hero Banner */}
@@ -43,7 +43,7 @@ export default function FrpSystems() {
                 <ul className="list-disc ml-5 space-y-2">
                   <li>Yüzeye uygulanan, yuvaya uygulanan ve ön gerilmeli plakalar (C-Plakalar)</li>
                   <li>Karbon, cam ve aramid elyaf kumaşlar</li>
-                  <li>Epoksi yapıştırıcılar ve laminasyon reçineleri</li>
+                  <li>Epoksi yapıştırıcılar ve plaka reçineleri</li>
                   <li>Cihazlar ve uygulama yardımcıları</li>
                   <li>Yazılım</li>
                   <li>Mühendislik hizmetleri</li>

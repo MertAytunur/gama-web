@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 const KarbonKumasPage = () => {
   return (
-    <Layout title="GAMA Karbon Kumaş | GAMA METALURJI" description="Karbon fiber kumaşlar">
+    <Layout title="GAMA Karbon Kumaş | GAMA Bina Güçlendirme Ürünleri" description="Karbon fiber kumaşlar">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}

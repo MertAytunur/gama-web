@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function ProjectDetail() {
   return (
-    <Layout title="Asfalt Güçlendirme: AP-8 Bilbao | GAMA METALURJI" description="GAMA METALURJI tarafından gerçekleştirilen AP-8 Bilbao asfalt güçlendirme projesi">
+    <Layout title="Asfalt Güçlendirme: AP-8 Bilbao | GAMA Bina Güçlendirme Ürünleri" description="GAMA Bina Güçlendirme Ürünleri tarafından gerçekleştirilen AP-8 Bilbao asfalt güçlendirme projesi">
       <div className="container mx-auto px-4 py-8">
         <nav className="flex mb-8 text-gray-500" aria-label="Breadcrumb">
           <ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -23,109 +23,76 @@ export default function ProjectDetail() {
           </ol>
         </nav>
 
-        <div className="mb-10">
-          <h1 className="text-4xl font-bold mb-4">Asfalt Güçlendirme: AP-8 Bilbao</h1>
-          <div className="flex flex-wrap gap-4 text-gray-600 mb-6">
-            <div>
-              <span className="font-semibold">Yer:</span> Otoyol AP-8, Basauri, İspanya
-            </div>
-            <div>
-              <span className="font-semibold">Tamamlanma:</span> 2024
-            </div>
-            <div>
-              <span className="font-semibold">Kategori:</span> Asfalt Güçlendirme
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="bg-blue-600 text-white p-6">
+            <h1 className="text-3xl font-bold">AP-8 Bilbao Asfalt Güçlendirme Projesi</h1>
+            <div className="flex items-center mt-2">
+              <span className="text-sm font-medium px-3 py-1 bg-blue-800 rounded-full mr-3">2021</span>
+              <span className="text-sm">Basauri, İspanya</span>
             </div>
           </div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-          <div className="lg:col-span-2">
-            <div className="mb-10 relative h-96 rounded-lg overflow-hidden">
-              <img 
-                src="/images/products/project1.jpg" 
-                alt="AP-8 Bilbao Projesi" 
-                className="object-cover w-full h-full"
-              />
-            </div>
-            
-            <div className="prose max-w-none">
-              <h2>Proje Hakkında</h2>
-              <p>
-                Basauri'deki AP-8 otoyolunda gerçekleştirilen bu asfalt güçlendirme projesi, GAMA METALURJI'nin 
-                Avrupa'daki önemli projelerinden biridir. Projenin amacı, yoğun trafik altındaki otoyolun 
-                dayanıklılığını artırmak ve bakım süresini uzatmaktı.
-              </p>
-
-              <h2>Zorluklar</h2>
-              <p>
-                Proje sürecinde karşılaşılan en büyük zorluklar:
-              </p>
-              <ul>
-                <li>Yoğun trafik akışı sırasında çalışma</li>
-                <li>Değişken hava koşulları</li>
-                <li>Kısa zamanda tamamlanması gereken geniş alanlar</li>
-              </ul>
-
-              <h2>Çözümler</h2>
-              <p>
-                GAMA METALURJI'nin GAMA Glasphalt G cam elyaf asfalt güçlendirme ızgarası kullanılarak:
-              </p>
-              <ul>
-                <li>Asfalt katmanları arasında yüksek dayanımlı güçlendirme sağlandı</li>
-                <li>Çatlak yayılımı engellenerek yolun ömrü uzatıldı</li>
-                <li>Toplam bakım gereksinimleri azaltıldı</li>
-                <li>Daha dayanıklı ve güvenli bir yol yüzeyi elde edildi</li>
-              </ul>
-
-              <h2>Sonuçlar</h2>
-              <p>
-                AP-8 otoyolunda uygulanan GAMA asfalt güçlendirme sistemi sayesinde:
-              </p>
-              <ul>
-                <li>Yolun beklenen hizmet ömrü %40 oranında arttı</li>
-                <li>Bakım maliyetlerinde %30 tasarruf sağlandı</li>
-                <li>Çevre dostu bir yaklaşımla sürdürülebilir bir çözüm sunuldu</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="lg:col-span-1">
-            <div className="bg-gray-50 p-6 rounded-lg mb-8">
-              <h3 className="text-xl font-semibold mb-4">Proje Detayları</h3>
-              <div className="space-y-3">
-                <div>
-                  <span className="block text-gray-500">Müşteri</span>
-                  <span className="font-medium">İspanya Karayolları İdaresi</span>
+          
+          <div className="p-6">
+            <div className="flex flex-col md:flex-row gap-8">
+              <div className="md:w-1/3">
+                <div className="rounded-lg overflow-hidden border border-gray-200">
+                  <img 
+                    src="/images/assets/project1.jpg" 
+                    alt="AP-8 Bilbao Projesi" 
+                    className="w-full h-auto"
+                  />
                 </div>
-                <div>
-                  <span className="block text-gray-500">Proje Alanı</span>
-                  <span className="font-medium">25.000 m²</span>
-                </div>
-                <div>
-                  <span className="block text-gray-500">Kullanılan Malzemeler</span>
-                  <span className="font-medium">GAMA Glasphalt G, GAMA FRP Sistemleri</span>
-                </div>
-                <div>
-                  <span className="block text-gray-500">Proje Süresi</span>
-                  <span className="font-medium">3 Ay</span>
+                <div className="grid grid-cols-2 gap-2 mt-2">
+                  <div className="rounded-lg overflow-hidden border border-gray-200">
+                    <img 
+                      src="/images/assets/project2.jpg" 
+                      alt="AP-8 Bilbao Projesi Detay" 
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden border border-gray-200">
+                    <img 
+                      src="/images/assets/project3.jpg" 
+                      alt="AP-8 Bilbao Projesi Detay" 
+                      className="w-full h-auto"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Benzer Projeler</h3>
-              <ul className="space-y-4">
-                <li>
-                  <Link href="/projects/e45-hjallerup" className="text-primary-blue hover:underline flex items-center">
-                    <span className="mr-2">→</span> Çatlak Önleme: E45 Otoyolu
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/projects/a21-ankara" className="text-primary-blue hover:underline flex items-center">
-                    <span className="mr-2">→</span> Asfalt Yaşlanma Kontrolü: A21 Otoyolu
-                  </Link>
-                </li>
-              </ul>
+              
+              <div className="md:w-2/3">
+                <h2 className="text-2xl font-semibold mb-4">Proje Açıklaması</h2>
+                
+                <div className="prose max-w-none">
+                  <p>Basauri'deki AP-8 otoyolunda gerçekleştirilen bu asfalt güçlendirme projesi, GAMA Bina Güçlendirme Ürünleri'nin
+                  yenilikçi cam elyaf ızgara teknolojisini kullanarak asfalt yüzeylerin ömrünü uzatma ve bakım maliyetlerini azaltma çabasını göstermektedir.</p>
+                  
+                  <h3 className="text-xl font-semibold mt-6 mb-3">Proje Hedefleri</h3>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Yüksek trafik yoğunluğuna sahip otoyolda asfalt çatlaklarını önlemek</li>
+                    <li>Yol ömrünü %50'den fazla uzatmak</li>
+                    <li>Bakım sıklığını ve maliyetlerini azaltmak</li>
+                    <li>Ağır taşıt trafiğine dayanıklı bir yüzey oluşturmak</li>
+                  </ul>
+                  
+                  <h3 className="text-xl font-semibold mt-6 mb-3">Kullanılan Çözümler</h3>
+                  <p>GAMA Bina Güçlendirme Ürünleri'nin GAMA Glasphalt G cam elyaf asfalt güçlendirme ızgarası kullanılarak:</p>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>15.000 m² yol yüzeyi güçlendirildi</li>
+                    <li>Asfalt katmanları arasına özel cam elyaf ızgara yerleştirildi</li>
+                    <li>Yansıma çatlakları önlendi</li>
+                    <li>Asfalt tabakaları arasında yük dağılımı iyileştirildi</li>
+                  </ul>
+                  
+                  <h3 className="text-xl font-semibold mt-6 mb-3">Sonuçlar</h3>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Tahmini yol ömrü 2 kattan fazla arttırıldı</li>
+                    <li>Bakım maliyetleri %40 azaltıldı</li>
+                    <li>Yolun servis süresinde kesinti olmadan uygulama tamamlandı</li>
+                    <li>Karbon emisyonu azaltımına katkı sağlandı</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
