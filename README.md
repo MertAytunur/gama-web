@@ -1,7 +1,6 @@
 # GAMA Akıllı Güçlendirme Türkçe Web Sitesi
 
-Bu proje, GAMA Reinforcement firmasının Türkçe web sitesini oluşturmak için Next.js, React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir. https://www.sp-reinforcement.eu/en-EU adresindeki orijinal İngilizce web sitesinin Türkçe versiyonudur.
-
+Bu proje, GAMA Reinforcement firmasının Türkçe web sitesini oluşturmak için Next.js, React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir.
 ## Özellikler
 
 - Next.js tabanlı modern web sitesi
