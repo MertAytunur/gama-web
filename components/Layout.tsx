@@ -53,7 +53,9 @@ const Layout: React.FC<LayoutProps> = ({
                 <Link href="/systems" className="text-gray-600 hover:text-primary-blue transition-colors font-medium py-2">Sistemler</Link>
                 <Link href="/projects" className="text-gray-600 hover:text-primary-blue transition-colors font-medium py-2">Projeler</Link>
                 <Link href="/about" className="text-gray-600 hover:text-primary-blue transition-colors font-medium py-2">Hakkımızda</Link>
-                <Link href="/contact" className="bg-primary-blue text-white px-6 py-2 rounded-md hover:bg-blue-800 transition-colors font-medium ml-2">İletişim</Link>
+                <Link href="/contact" className="carbon-fiber-bg text-white px-6 py-2 rounded-md hover:opacity-90 transition-colors font-medium ml-2 relative overflow-hidden">
+                  <span className="relative z-10">İletişime Geçin</span>
+                </Link>
               </div>
             </nav>
           </div>
@@ -65,7 +67,9 @@ const Layout: React.FC<LayoutProps> = ({
               <Link href="/systems" className="text-gray-600 hover:text-primary-blue transition-colors font-medium py-2">Sistemler</Link>
               <Link href="/projects" className="text-gray-600 hover:text-primary-blue transition-colors font-medium py-2">Projeler</Link>
               <Link href="/about" className="text-gray-600 hover:text-primary-blue transition-colors font-medium py-2">Hakkımızda</Link>
-              <Link href="/contact" className="bg-primary-blue text-white px-6 py-2 rounded-md hover:bg-blue-800 transition-colors font-medium inline-block">İletişim</Link>
+              <Link href="/contact" className="carbon-fiber-bg text-white px-6 py-2 rounded-md hover:opacity-90 transition-colors font-medium inline-block relative overflow-hidden">
+                <span className="relative z-10">İletişime Geçin</span>
+              </Link>
             </nav>
           </div>
         </div>

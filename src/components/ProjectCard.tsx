@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 interface ProjectCardProps {
   title: string;
@@ -20,6 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   href,
   techSpecs
 }) => {
+  const router = useRouter();
   const [expanded, setExpanded] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -29,8 +31,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       // First click - expand to show tech specs
       setExpanded(true);
     } else {
-      // Second click - navigate to product page
-      window.location.href = href;
+      // Second click - navigate to product page using Next.js router
+      router.push(href);
     }
   };
 

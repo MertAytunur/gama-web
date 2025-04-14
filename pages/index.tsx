@@ -65,8 +65,8 @@ export default function Home() {
             Yapısal güçlendirme ve zemin iyileştirme için özel çözümler.
           </p>
           <div className="flex space-x-4">
-            <Link href="/contact" className="bg-primary-blue hover:bg-blue-800 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition-all">
-              İletişime Geçin
+            <Link href="/contact" className="carbon-fiber-bg relative text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:opacity-90 transition-all overflow-hidden">
+              <span className="relative z-10">İletişime Geçin</span>
             </Link>
             <Link href="/about" className="bg-white text-primary-blue hover:bg-gray-100 font-semibold py-3 px-6 rounded-full shadow-lg transition-all">
               Hakkımızda
@@ -296,14 +296,16 @@ export default function Home() {
 
       {/* CTA Bölümü */}
       <section className="cta mb-10">
-        <div className="bg-primary-blue text-white p-10 rounded-lg text-center shadow-lg">
-          <h2 className="text-3xl font-bold mb-4">Projenize Özel Çözümler</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Güçlendirme ihtiyaçlarınız için uzman ekibimizle iletişime geçin. Size özel çözümler sunalım.
-          </p>
-          <Link href="/contact" className="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block shadow-md">
-            Hemen İletişime Geçin
-          </Link>
+        <div className="carbon-fiber-bg text-white p-10 rounded-lg text-center shadow-lg relative">
+          <div className="relative z-10">
+            <h2 className="text-3xl font-bold mb-4">Projenize Özel Çözümler</h2>
+            <p className="text-xl mb-8 max-w-2xl mx-auto">
+              Güçlendirme ihtiyaçlarınız için uzman ekibimizle iletişime geçin. Size özel çözümler sunalım.
+            </p>
+            <Link href="/contact" className="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block shadow-md">
+              Hemen İletişime Geçin
+            </Link>
+          </div>
         </div>
       </section>
     </Layout>
