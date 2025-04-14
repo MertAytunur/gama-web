@@ -1,0 +1,157 @@
+/* Admin Panel Custom CSS */
+
+.carbon-fiber-bg {
+  position: relative;
+  background-color: #2a2a2a; /* darker base color */
+}
+
+.carbon-fiber-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 4px
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-size: 8px 8px, 8px 8px, 100% 100%;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+/* Add carbon fiber texture to sidebar */
+.adminjs_Navigation {
+  background-color: #2a2a2a !important;
+  position: relative;
+}
+
+.adminjs_Navigation::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  background-size: 8px 8px, 8px 8px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Customize sidebar links */
+.adminjs_NavigationLink {
+  color: white !important;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
+.adminjs_NavigationLink:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.adminjs_NavigationLink-active {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border-left: 3px solid white;
+}
+
+/* Improve buttons styling */
+.adminjs_Button-primary {
+  border-radius: 4px !important;
+  transition: opacity 0.3s ease !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.adminjs_Button-primary:hover {
+  opacity: 0.9 !important;
+}
+
+/* Table styling */
+.adminjs_Table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adminjs_TableRow {
+  transition: background-color 0.2s ease;
+}
+
+.adminjs_TableRow:hover {
+  background-color: rgba(42, 42, 42, 0.05) !important;
+}
+
+/* Form inputs */
+.adminjs_Input {
+  border-radius: 4px !important;
+  border: 1px solid #ddd !important;
+  padding: 8px 12px !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.adminjs_Input:focus {
+  border-color: #2a2a2a !important;
+  box-shadow: 0 0 0 2px rgba(42, 42, 42, 0.2) !important;
+}
+
+/* Custom card styling */
+.adminjs_Box-card {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden !important;
+}
+
+/* Improve typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600 !important;
+}
+
+/* Custom styles for dashboard cards */
+.dashboard-card {
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.adminjs_Animation-fade {
+  animation: fadeIn 0.5s ease-in-out;
+} 
