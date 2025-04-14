@@ -3,12 +3,12 @@ import Layout from '../../components/Layout';
 
 const CMeshPage = () => {
   return (
-    <Layout title="S&P C-Mesh | GAMA METALURJI" description="Karbon fiber file güçlendirme sistemleri">
+    <Layout title="GAMA C-Mesh | GAMA METALURJI" description="Karbon fiber file güçlendirme sistemleri">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Ürün Başlık */}
           <div className="bg-blue-600 text-white p-6">
-            <h1 className="text-3xl font-bold">S&P C-Mesh</h1>
+            <h1 className="text-3xl font-bold">GAMA C-Mesh</h1>
             <p className="mt-2 text-lg">Karbon fiber takviyeli file sistemleri</p>
           </div>
           
@@ -20,7 +20,7 @@ const CMeshPage = () => {
                 <div className="relative h-80 w-full rounded-lg overflow-hidden border border-gray-200">
                   <img 
                     src="/images/assets/c-mesh.png" 
-                    alt="S&P C-Mesh" 
+                    alt="GAMA C-Mesh" 
                     className="object-cover w-full h-full"
                   />
                 </div>
@@ -31,7 +31,7 @@ const CMeshPage = () => {
                 <h2 className="text-2xl font-semibold mb-4">Ürün Bilgileri</h2>
                 
                 <div className="prose max-w-none">
-                  <p>S&P C-Mesh, yüksek mukavemetli karbon fiber filelerdir. Tek veya çift yönlü olarak üretilen bu fileler, betonarme yapıların güçlendirilmesinde kullanılır. Özellikle duvarların kesme dayanımını artırmak ve kolonları sargılamak için ideal bir çözümdür.</p>
+                  <p>GAMA C-Mesh, yüksek mukavemetli karbon fiber filelerdir. Tek veya çift yönlü olarak üretilen bu fileler, betonarme yapıların güçlendirilmesinde kullanılır. Özellikle duvarların kesme dayanımını artırmak ve kolonları sargılamak için ideal bir çözümdür.</p>
                   
                   <h3 className="text-xl font-semibold mt-6 mb-3">Teknik Özellikler</h3>
                   <ul className="list-disc pl-5 space-y-2">
@@ -75,17 +75,17 @@ const CMeshPage = () => {
             <h2 className="text-2xl font-semibold mb-4">İlgili Ürünler</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-                <h3 className="font-semibold mb-2">S&P Armo-Mesh</h3>
+                <h3 className="font-semibold mb-2">GAMA Armo-Mesh</h3>
                 <p className="text-sm text-gray-600">Cam fiber takviyeli file sistemleri</p>
                 <a href="/products/armo-mesh" className="text-blue-600 text-sm mt-2 inline-block hover:underline">Daha fazla bilgi →</a>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-                <h3 className="font-semibold mb-2">S&P Resin Epoxy</h3>
+                <h3 className="font-semibold mb-2">GAMA Resin Epoxy</h3>
                 <p className="text-sm text-gray-600">Yüksek performanslı yapıştırma reçinesi</p>
                 <a href="/products/resin" className="text-blue-600 text-sm mt-2 inline-block hover:underline">Daha fazla bilgi →</a>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-                <h3 className="font-semibold mb-2">S&P C-Laminate</h3>
+                <h3 className="font-semibold mb-2">GAMA C-Laminate</h3>
                 <p className="text-sm text-gray-600">Karbon fiber takviyeli laminat sistemleri</p>
                 <a href="/products/c-laminate" className="text-blue-600 text-sm mt-2 inline-block hover:underline">Daha fazla bilgi →</a>
               </div>

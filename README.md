@@ -1,6 +1,6 @@
-# S&P Akıllı Güçlendirme Türkçe Web Sitesi
+# GAMA Akıllı Güçlendirme Türkçe Web Sitesi
 
-Bu proje, S&P Reinforcement firmasının Türkçe web sitesini oluşturmak için Next.js, React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir. https://www.sp-reinforcement.eu/en-EU adresindeki orijinal İngilizce web sitesinin Türkçe uyarlamasıdır.
+Bu proje, GAMA Reinforcement firmasının Türkçe web sitesini oluşturmak için Next.js, React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir. https://www.sp-reinforcement.eu/en-EU adresindeki orijinal İngilizce web sitesinin Türkçe versiyonudur.
 
 ## Özellikler
 
@@ -60,4 +60,4 @@ npm run start
 
 ## Lisans
 
-Bu proje, orijinal içerik sahibi olan S&P Reinforcement'a aittir ve sadece eğitim amaçlı olarak klonlanmıştır. 
+Bu proje, orijinal içerik sahibi olan GAMA Reinforcement'a aittir ve sadece eğitim amaçlı olarak klonlanmıştır. 

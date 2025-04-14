@@ -56,7 +56,7 @@ products.forEach(product => {
 </head>
 <body>
   <div class="container">
-    <h2>S&P ${product.replace(/-/g, ' ').toUpperCase()}</h2>
+    <h2>GAMA ${product.replace(/-/g, ' ').toUpperCase()}</h2>
     <p>Ürün Görseli</p>
   </div>
 </body>
